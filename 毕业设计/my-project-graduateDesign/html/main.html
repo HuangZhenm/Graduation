@@ -25,9 +25,13 @@
             <div class="user_content">
                 <a href="#" class="user_login_content">
                     <div class="userimage"></div>
-                    <span class="username">username</span>
-                    <img>
+                    <span class="username">未登录</span>
                 </a>
+                <div class="user_loginOrRegister">
+                    <a class="loginButton" href="#">登录</a>
+                    <a class="registerButton" href="#">注册</a>
+                </div>
+
             </div>
         </div>
     </div>
@@ -44,6 +48,42 @@
         </div>
     </div>
     <div id="bottom"></div>
+    <div class="login_background">
+        <div class="login">
+            <a href="#" class="login_close"></a>
+            <div class="login_title">
+                <strong>账号登录</strong>
+            </div>
+            <div class="login_personMessage">
+                <input class="login_personMessage_username" type="text" placeholder="请输入账号">
+                <input class="login_personMessage_password" type="password" placeholder="请输入密码">
+                <a href="#" class="login_personMessage_password_close"></a>
+                <button class="login_personMessageButton">登录</button>
+            </div>
+            <div class="login_returnRegister">
+                <a class="login_returnRegister_a" href="#" style="text-decoration: none; color: gray;">还没创建账号，点击注册账号</a>
+            </div>
+        </div>
+        <div class="register">
+            <a href="#" class="login_close"></a>
+            <div class="register_title">
+                <strong>账号注册</strong>
+            </div>
+            <div class="register_personMessage">
+                <input class="register_personMessage_username" type="text" placeholder="请输入账号">
+                <input class="register_personMessage_password1" type="password" placeholder="请输入密码">
+                <a href="#" class="register_personMessage_password_close1"></a>
+                <input class="register_personMessage_password2" type="password" placeholder="请再次输入密码">
+                <a href="#" class="register_personMessage_password_close2"></a>
+                <button class="register_personMessageButton">注册</button>
+            </div>
+            <div class="register_returnLogin">
+                <a class="register_returnLogin_a" href="#" style="text-decoration: none; color: gray;">返回账号登录</a>
+            </div>
+        </div>
+    </div>
+
+
     <script src="../scripts/main.js"></script>
 </body>
 
